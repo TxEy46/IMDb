@@ -1,0 +1,61 @@
+<div *ngIf="movie; else notFound" class="container">
+    <button matButton (click)="goBack()" class="back-button">Back</button>
+    <div class="top-content">
+
+        <div class="left-side">
+            <img [src]="movie.image" alt="{{ movie.name }}" />
+        </div>
+
+        <div class="right-side">
+            <youtube-player *ngIf="videoId" [videoId]="videoId" width="560" height="370"></youtube-player>
+        </div>
+    </div>
+    <div class="bottom-content" style="margin-top: 20px;">
+        <div class="movie-type-wrapper">
+            <span class="movie-type-box" *ngFor="let type of movie.type.split(',')">
+                {{ type.trim() }}
+            </span>
+        </div>
+        <h3>{{ movie.name }}</h3>
+        <p><strong>IMDB:</strong> {{ movie.imdb_score }}/10</p>
+        <p><strong>Description:</strong> {{ movie.description || 'No description available.' }}</p>
+    </div>
+    <div class="bottom-content">
+        <p><strong>Director:</strong>
+            <ng-container *ngFor="let directorId of movie.directorIds; let last = last">
+                <a class="clickable-person" (click)="onPersonClick(directorId)">
+                    {{ getPersonNameById(directorId) }}
+                </a>
+                <span *ngIf="!last">, </span>
+            </ng-container>
+        </p>
+    </div>
+    <div class="bottom-content">
+        <p><strong>Writers:</strong>
+            <ng-container *ngFor="let writerId of movie.writerIds; let last = last">
+                <a class="clickable-person" (click)="onPersonClick(writerId)">
+                    {{ getPersonNameById(writerId) }}
+                </a>
+                <span *ngIf="!last">, </span>
+            </ng-container>
+        </p>
+    </div>
+    <div class="bottom-content">
+        <p><strong>Stars:</strong>
+            <ng-container *ngFor="let starId of movie.starIds; let last = last">
+                <a class="clickable-person" (click)="onPersonClick(starId)">
+                    {{ getPersonNameById(starId) }}
+                </a>
+                <span *ngIf="!last">, </span>
+            </ng-container>
+        </p>
+    </div>
+</div>
+
+<ng-template #notFound>
+    <div class="not-found-container">
+        <h2>🎬 Movie not found.</h2>
+        <p>We couldn't find the movie you're looking for.</p>
+        <button mat-button class="back-btn" (click)="goBack()">Go Back</button>
+    </div>
+</ng-template>

@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* ไม่ให้ขึ้นบรรทัดใหม่ */
+    gap: 12px;
+    padding: 12px;
+    justify-content: flex-start;
+    max-width: fit-content;
+    margin: 0 auto;
+    overflow-x: auto;
+    /* ให้เลื่อนแนวนอน */
+    scrollbar-width: thin;
+    /* Firefox scrollbar บาง */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* IE และ Edge */
+}
+
+/* scrollbar สวย ๆ สำหรับ webkit browsers */
+.movie-container::-webkit-scrollbar {
+    height: 6px;
+    display: none;
+}
+
+.movie-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.movie-card {
+    position: relative;
+    flex: 0 0 calc((100% / 6) - 10px);
+    max-width: 160px;
+    height: 240px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000;
+    /* ดำไว้ก่อน */
+    cursor: pointer;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.movie-info-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+    /* 👈 เลื่อนขึ้นมาแค่ 40% ของภาพ */
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 8px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.movie-card:hover .movie-info-overlay {
+    transform: translateY(10%);
+    /* 👈 โผล่มาเฉพาะด้านล่าง */
+}
+
+.movie-info-overlay h2 {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.3;
+    word-break: break-word;
+    color: #FFFFFF;
+}
+
+.movie-info-overlay h3 {
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.3;
+    word-break: break-word;
+    color: #F5C518;
+}
+
+.movie-info-overlay .button-group {
+    margin-top: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.full-width-rounded {
+    width: 100%;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: start;
+    margin: 16px;
+    font-size: 20px;
+}
+
+.people-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* ห้ามขึ้นบรรทัดใหม่ */
+    overflow-x: auto;
+    /* เลื่อนแนวนอนได้ */
+    gap: 16px;
+    padding: 12px;
+    max-width: fit-content;
+    margin: 0 auto;
+    scrollbar-width: thin;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* IE และ Edge */
+}
+
+/* scrollbar สำหรับ webkit */
+.people-container::-webkit-scrollbar {
+    height: 6px;
+    display: none;
+}
+
+.people-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.people-wrapper {
+    flex: 0 0 auto;
+    /* ห้ามขยายหรือยุบ ใช้ขนาดตามเนื้อหา */
+    text-align: center;
+    cursor: pointer;
+}
+
+.people-card {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.people-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.people-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+
+.people-name {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.people-age {
+    font-size: 12px;
+    font-weight: normal;
+    color: #cccccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h1 {
+    text-align: start;
+    margin: 16px;
+    font-size: 20px;
+}
+
+.movie-title {
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    white-space: nowrap;
+    /* ไม่ขึ้นบรรทัดใหม่ */
+    overflow: hidden;
+    /* ตัดข้อความที่เกิน */
+    text-overflow: ellipsis;
+    /* แสดง ... */
+}
+
+.highlight-bar {
+  color: #F5C518;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-right: 2px; /* ระยะห่างจากข้อความถัดไป */
+}

@@ -1,0 +1,176 @@
+/* Global box-sizing (ถ้ายังไม่มีในโปรเจกต์) */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.back-button {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    font-weight: 600;
+}
+
+.m-card {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content {
+    display: flex;
+    gap: 20px;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-side img {
+    width: 280px;
+    height: 380px;
+    /* เพิ่มความสูงแบบคงที่ */
+    border-radius: 10px;
+    object-fit: cover;
+    /* ครอบภาพให้เต็มพื้นที่โดยไม่ยืด */
+    display: block;
+    /* ป้องกัน whitespace ด้านล่าง */
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+.bottom-content {
+    color: #f0f0f0;
+    text-align: left;
+    width: 100%;
+    max-width: 860px;
+    /* จำกัดความกว้าง */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    align-self: center;
+    /* ทำให้ส่วนนี้อยู่กลางใน flex container */
+}
+
+.bottom-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.bottom-content p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.bottom-content strong {
+    color: #ffcc00;
+}
+
+.m-type-wrapper {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    /* เผื่อมีหลาย type จะขึ้นบรรทัดใหม่ */
+    margin-top: 12px;
+}
+
+.m-type-box {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    white-space: nowrap;
+}
+
+.back-button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    font-weight: normal;
+    background-color: #f5c518;
+    color: #ffffff; // ตัวหนังสือสีดำ
+    border: none;
+    border-radius: 20px;
+    opacity: 0.1; // ปกติให้จางลงเล็กน้อย
+    transition: background-color 0.3s, opacity 0.3s;
+
+    &:hover {
+        background-color: #e0b417;
+        opacity: 1; // เข้มเต็มเมื่อ hover
+    }
+}
+
+.not-found-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(245, 197, 24, 0.2);
+    max-width: 500px;
+    margin: 60px auto;
+    border: 2px solid #f5c518;
+
+    h2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #f5c518;
+    }
+
+    p {
+        font-size: 16px;
+        color: #dddddd;
+        margin-bottom: 24px;
+    }
+
+    .back-btn {
+        background-color: #f5c518;
+        color: #000000;
+        font-weight: bold;
+        padding: 8px 20px;
+        border-radius: 25px;
+        transition: background-color 0.3s, transform 0.2s;
+
+        &:hover {
+            background-color: #e0b417;
+            transform: translateY(-1px);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+<div *ngIf="m; else notFound" class="container">
+    <button mat-button (click)="goBack()" class="back-button">Back</button>
+    <div class="top-content">
+
+        <div class="left-side">
+            <img [src]="m.image" alt="{{ m.first_name }}" />
+        </div>
+
+        <div class="right-side">
+            <youtube-player *ngIf="videoId" [videoId]="videoId" width="560" height="370"></youtube-player>
+        </div>
+    </div>
+    <div class="bottom-content" style="margin-top: 20px;">
+        <h3>{{ m.first_name }} {{ m.last_name }}</h3>
+        <p><strong>Age:</strong> {{ m.age || 'No age available.' }}</p>
+        <p><strong>Description:</strong> {{ m.description || 'No description available.' }}</p>
+    </div>
+</div>
+
+<ng-template #notFound>
+    <div class="not-found-container">
+        <h2>🤦‍♂️ People not found.</h2>
+        <p>We couldn't find the people you're looking for.</p>
+        <button mat-button class="back-btn" (click)="goBack()">Go Back</button>
+    </div>
+</ng-template>

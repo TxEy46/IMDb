@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { ToolBar } from "./pages/tool-bar/tool-bar";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterModule, ToolBar],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

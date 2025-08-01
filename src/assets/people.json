@@ -1,0 +1,487 @@
+[
+  {
+    "id": 1,
+    "first_name": "Leonardo",
+    "last_name": "DiCaprio",
+    "age": 49,
+    "image": "https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=kVrqfYjkTdQ",
+    "description": "Leonardo DiCaprio is an Academy Award-winning actor...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Scarlett",
+    "last_name": "Johansson",
+    "age": 39,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/ybji16u608U",
+    "description": "Scarlett Johansson is one of the highest-grossing actresses...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Denzel",
+    "last_name": "Washington",
+    "age": 69,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjExMjY5ODYyM15BMl5BanBnXkFtZTgwOTU0OTg0NDM@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=DXPJqRtkDP0",
+    "description": "Denzel Washington is a legendary actor...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Natalie",
+    "last_name": "Portman",
+    "age": 43,
+    "image": "https://m.media-amazon.com/images/M/MV5BNjk1M2RmODAtMjE0Ny00N2U0LWIwNWYtZTAxMDFiMzk1MjU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/5jaI1XOB-bs",
+    "description": "Natalie Portman is an Oscar-winning actress...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 5,
+    "first_name": "Tom",
+    "last_name": "Cruise",
+    "age": 62,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmU1YWU1NmMtMjAyMi00MjFiLWFmZmUtOTc1ZjI5ODkxYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=fsQgc9pCyDU&t=2s",
+    "description": "Tom Cruise is one of the most successful and daring action stars...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 6,
+    "first_name": "Zendaya",
+    "last_name": "Coleman",
+    "age": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg",
+    "videoUrl": "https://www.youtube.com/embed/JfVOs4VSpmA",
+    "description": "Zendaya is a multi-talented actress, singer, and fashion icon...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 7,
+    "first_name": "Christian",
+    "last_name": "Bale",
+    "age": 50,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTkxMzk4MjQ4MF5BMl5BanBnXkFtZTcwMzExODQxOA@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=1T__uN5xmC0",
+    "description": "Christian Bale is known for his intense method acting...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 8,
+    "first_name": "Emma",
+    "last_name": "Stone",
+    "age": 35,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjI4NjM1NDkyN15BMl5BanBnXkFtZTgwODgyNTY1MjE@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/0pdqf4P9MB8",
+    "description": "Emma Stone is an acclaimed actress who brings charm, wit...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 9,
+    "first_name": "Keanu",
+    "last_name": "Reeves",
+    "age": 59,
+    "image": "https://m.media-amazon.com/images/M/MV5BNDEzOTdhNDUtY2EyMy00YTNmLWE5MjItZmRjMmQzYTRlMGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/C0BMx-qxsP4",
+    "description": "Keanu Reeves is renowned for his roles in The Matrix and John Wick...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 10,
+    "first_name": "Jennifer",
+    "last_name": "Lawrence",
+    "age": 34,
+    "image": "https://m.media-amazon.com/images/M/MV5BOTU3NDE5MDQ4MV5BMl5BanBnXkFtZTgwMzE5ODQ3MDI@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/mfmrPu43DF8",
+    "description": "Jennifer Lawrence is an Academy Award-winning actress...",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 11,
+    "first_name": "James",
+    "last_name": "Gunn",
+    "age": 57,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTYxMDgzMjA5OV5BMl5BanBnXkFtZTcwMzMwMTUxNw@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/dxWvtMOGAhw",
+    "description": "James Gunn is a filmmaker known for his work on the Guardians of the Galaxy and The Suicide Squad.",
+    "roles": [
+      "director",
+      "writer"
+    ]
+  },
+  {
+    "id": 12,
+    "first_name": "Jerry",
+    "last_name": "Siegel",
+    "age": 81,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmMyMzgyYzUtZTI4OS00MjI1LTgxYjYtNWRkYzM2MmU2ZGIzXkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/3QeCPkzT8TU",
+    "description": "Jerry Siegel was an American comic book writer best known as the co-creator of Superman.",
+    "roles": [
+      "writer"
+    ]
+  },
+  {
+    "id": 13,
+    "first_name": "Joe",
+    "last_name": "Shuster",
+    "age": 78,
+    "image": "https://m.media-amazon.com/images/M/MV5BNGY4N2Y4ZjEtMDgwOS00NDYwLWExN2UtMzU0NGMxNWJjYTk1XkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/3QeCPkzT8TU",
+    "description": "Joe Shuster was a Canadian-American comic book artist best known as the co-creator of Superman.",
+    "roles": [
+      "writer"
+    ]
+  },
+  {
+    "id": 14,
+    "first_name": "David",
+    "last_name": "Corenswet",
+    "age": 30,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTFmZTY1MDgtMGZlOS00NGFlLWIxOTEtZTk4NTQ2NTM2MGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/8Qn_spdM5Zg",
+    "description": "David Corenswet is an American actor known for his roles in The Politician and Hollywood.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 15,
+    "first_name": "Rachel",
+    "last_name": "Brosnahan",
+    "age": 34,
+    "image": "https://m.media-amazon.com/images/M/MV5BZDAwNmJmYjctMDk0YS00NGI1LWJlOGEtNGZhODgyNjFjN2ZjXkEyXkFqcGc@._V1_CR1269,127,1496,2244_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/2jV5P5uG3vQ",
+    "description": "Rachel Brosnahan is an Emmy-winning actress best known for The Marvelous Mrs. Maisel.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 16,
+    "first_name": "Nicholas",
+    "last_name": "Hoult",
+    "age": 34,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/NicholasHoultTolkien2.jpg/250px-NicholasHoultTolkien2.jpg",
+    "videoUrl": "https://www.youtube.com/embed/6ZfuNTqbHE8",
+    "description": "Nicholas Hoult is an English actor known for roles in X-Men and Mad Max: Fury Road.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 17,
+    "first_name": "Joseph",
+    "last_name": "Kosinski",
+    "age": 49,
+    "image": "https://media.themoviedb.org/t/p/w500/oWLUXWY0j8TYzwnf2wETYWO181S.jpg",
+    "videoUrl": "https://www.youtube.com/embed/giXco2jaZ_4",
+    "description": "Joseph Kosinski is a film director known for Tron: Legacy and Top Gun: Maverick.",
+    "roles": [
+      "director",
+      "writer"
+    ]
+  },
+  {
+    "id": 18,
+    "first_name": "Ehren",
+    "last_name": "Kruger",
+    "age": 51,
+    "image": "https://media.themoviedb.org/t/p/w500/jGwR9TRGhV9Fpw8cQrSN5FGQd9W.jpg",
+    "videoUrl": "https://www.youtube.com/embed/giXco2jaZ_4",
+    "description": "Ehren Kruger is a screenwriter known for his work on the Transformers series.",
+    "roles": [
+      "writer"
+    ]
+  },
+  {
+    "id": 19,
+    "first_name": "Brad",
+    "last_name": "Pitt",
+    "age": 60,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=8yh9BPUBbbQ",
+    "description": "Brad Pitt is an Academy Award-winning actor and producer known for Fight Club and Once Upon a Time in Hollywood.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 20,
+    "first_name": "Damson",
+    "last_name": "Idris",
+    "age": 32,
+    "image": "https://m.media-amazon.com/images/M/MV5BYmYyYWM1OTctYWNjZS00NTcxLTkwODAtZjU4MzAwMzJkNDM1XkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/giXco2jaZ_4",
+    "description": "Damson Idris is a British actor best known for his role in the TV series Snowfall.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 21,
+    "first_name": "Heath",
+    "last_name": "Ledger",
+    "age": 28,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "description": "Heath Ledger was an Australian actor who won a posthumous Academy Award for his iconic portrayal of the Joker in The Dark Knight.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 23,
+    "first_name": "Christopher",
+    "last_name": "Nolan",
+    "age": 53,
+    "image": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "description": "Christopher Nolan is a renowned director, screenwriter, and producer, best known for directing The Dark Knight trilogy.",
+    "roles": [
+      "director",
+      "writer"
+    ]
+  },
+  {
+    "id": 24,
+    "first_name": "Aaron",
+    "last_name": "Eckhart",
+    "age": 56,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc4MTAyNzMzNF5BMl5BanBnXkFtZTcwMzQ5MzQzMg@@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "description": "Aaron Eckhart is an American actor who played Harvey Dent/Two-Face in The Dark Knight.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 25,
+    "first_name": "Maggie",
+    "last_name": "Gyllenhaal",
+    "age": 46,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTM1MjY3NzA4NF5BMl5BanBnXkFtZTcwNzE4MjMyMw@@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "description": "Maggie Gyllenhaal is an American actress who played Rachel Dawes in The Dark Knight.",
+    "roles": [
+      "star"
+    ]
+  }
+  ,
+  {
+    "id": 26,
+    "first_name": "Bong",
+    "last_name": "Joon-ho",
+    "age": 54,
+    "image": "https://m.media-amazon.com/images/M/MV5BNTZkMTU4MjctZjk4NC00ZDNhLTk5ZWItNmZjNWUzMDI3NjUxXkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/SEUXfv87Wpk",
+    "description": "Bong Joon-ho is an acclaimed South Korean director and screenwriter, best known internationally for his Academy Award-winning film 'Parasite'.",
+    "roles": [
+      "director",
+      "writer"
+    ]
+  },
+  {
+    "id": 27,
+    "first_name": "Song",
+    "last_name": "Kang-ho",
+    "age": 57,
+    "image": "https://m.media-amazon.com/images/M/MV5BYmI2OTQwMmItMDI5OS00OGQxLWIyZGUtNThlNjRjODkwMTI1XkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/SEUXfv87Wpk",
+    "description": "Song Kang-ho is a celebrated South Korean actor who played Kim Ki-taek, the patriarch of the Kim family in 'Parasite'.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 28,
+    "first_name": "Lee",
+    "last_name": "Sun-kyun",
+    "age": 49,
+    "image": "https://m.media-amazon.com/images/M/MV5BNGQxYmRlZjctMWFjYi00MDA5LWE1ZjAtNjlmY2ZjY2U4YzE4XkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/SEUXfv87Wpk",
+    "description": "Lee Sun-kyun is a South Korean actor who portrayed Park Dong-ik, the wealthy father in 'Parasite'.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 29,
+    "first_name": "Cho",
+    "last_name": "Yeo-jeong",
+    "age": 43,
+    "image": "https://m.media-amazon.com/images/M/MV5BZDdlNGIyZTktNTFmYS00ODgwLWEwM2UtZTM3ODJjMjQ0N2ZlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/SEUXfv87Wpk",
+    "description": "Cho Yeo-jeong is a South Korean actress who played Choi Yeon-gyo, the mother of the Park family in 'Parasite'.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 30,
+    "first_name": "Choi",
+    "last_name": "Woo-shik",
+    "age": 34,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzE0zkSyg9YE_RsvYdiTnKuT9HEIyftCNwQ&s",
+    "videoUrl": "https://www.youtube.com/embed/SEUXfv87Wpk",
+    "description": "Choi Woo-shik is a South Korean actor who played Kim Ki-woo, the son of the Kim family in 'Parasite'.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 31,
+    "first_name": "Park",
+    "last_name": "So-dam",
+    "age": 32,
+    "image": "https://m.media-amazon.com/images/M/MV5BNzE2ZTM1ZGUtOWM5ZC00ZDU5LWExOTUtM2E5ZGVjNDI4OWQ2XkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/SEUXfv87Wpk",
+    "description": "Park So-dam is a South Korean actress who played Kim Ki-jung, the daughter of the Kim family in 'Parasite'.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 32,
+    "first_name": "Anthony",
+    "last_name": "Russo",
+    "age": 54,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc2NjM5MTM0Ml5BMl5BanBnXkFtZTgwMTY3ODczNjM@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Anthony Russo is an American director and producer, best known for co-directing Avengers: Endgame.",
+    "roles": [
+      "director"
+    ]
+  },
+  {
+    "id": 33,
+    "first_name": "Joe",
+    "last_name": "Russo",
+    "age": 52,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Joe_Russo_by_Gage_Skidmore.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Joe Russo is an American director and producer, best known for co-directing Avengers: Endgame.",
+    "roles": [
+      "director"
+    ]
+  },
+  {
+    "id": 34,
+    "first_name": "Christopher",
+    "last_name": "Markus",
+    "age": 54,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAxMDAwODYwOV5BMl5BanBnXkFtZTcwMjc5OTEwNg@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Christopher Markus is a screenwriter best known for co-writing Avengers: Endgame.",
+    "roles": [
+      "writer"
+    ]
+  },
+  {
+    "id": 35,
+    "first_name": "Stephen",
+    "last_name": "McFeely",
+    "age": 54,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjE0MTIxMzk1Nl5BMl5BanBnXkFtZTcwMzY5OTEwNg@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Stephen McFeely is a screenwriter best known for co-writing Avengers: Endgame.",
+    "roles": [
+      "writer"
+    ]
+  },
+  {
+    "id": 36,
+    "first_name": "Robert",
+    "last_name": "Downey Jr.",
+    "age": 59,
+    "image": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_FMjpg_UX1000_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Robert Downey Jr. stars as Tony Stark/Iron Man in Avengers: Endgame.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 37,
+    "first_name": "Chris",
+    "last_name": "Evans",
+    "age": 43,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/ChrisEvans2023.jpg/1200px-ChrisEvans2023.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Chris Evans stars as Steve Rogers/Captain America in Avengers: Endgame.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 38,
+    "first_name": "Mark",
+    "last_name": "Ruffalo",
+    "age": 56,
+    "image": "https://m.media-amazon.com/images/M/MV5BM2JiYzA0ZGItNmFhYy00MjIyLWEwN2QtMzRmNDUyNjNiZjBiXkEyXkFqcGc@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Mark Ruffalo stars as Bruce Banner/Hulk in Avengers: Endgame.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 39,
+    "first_name": "Chris",
+    "last_name": "Hemsworth",
+    "age": 40,
+    "image": "https://media.vanityfair.com/photos/63765577474812eb37ec70bc/master/w_2560%2Cc_limit/Headshot%2520-%2520credit%2520%25E2%2580%259CNational%2520Geographic%2520for%2520Disney+%25E2%2580%259D.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Chris Hemsworth stars as Thor in Avengers: Endgame.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 40,
+    "first_name": "Jeremy",
+    "last_name": "Renner",
+    "age": 53,
+    "image": "https://m.media-amazon.com/images/M/MV5BOTk2NDc2ODgzMF5BMl5BanBnXkFtZTcwMTMzOTQ4Nw@@._V1_.jpg",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Jeremy Renner stars as Clint Barton/Hawkeye in Avengers: Endgame.",
+    "roles": [
+      "star"
+    ]
+  },
+  {
+    "id": 41,
+    "first_name": "Brie",
+    "last_name": "Larson",
+    "age": 34,
+    "image": "https://images.squarespace-cdn.com/content/v1/627024159615cc21b757b85b/1651578742395-QSZG9SWZDEOWN8H6TZAQ/image-asset.jpegc",
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "Brie Larson stars as Carol Danvers/Captain Marvel in Avengers: Endgame.",
+    "roles": [
+      "star"
+    ]
+  }
+]

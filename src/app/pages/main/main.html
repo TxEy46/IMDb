@@ -1,0 +1,37 @@
+<h1><span class="highlight-bar">|</span> Movie</h1>
+
+<div class="movie-container ggfont">
+  <div *ngFor="let movie of movies" class="movie-card">
+    
+    <!-- คลิกที่ภาพแล้วไปที่ /info/:id -->
+    <a [routerLink]="['/movie', movie.id]">
+      <img [src]="movie.image" alt="{{ movie.name }}" />
+    </a>
+
+    <!-- Overlay ข้อมูลที่เลื่อนขึ้นมา -->
+    <div class="movie-info-overlay">
+      <h2 class="movie-title">{{ movie.name }}</h2>
+      <h3>IMDB: {{ movie.imdb_score }}</h3>
+    </div>
+  </div>
+</div>
+
+<h1><span class="highlight-bar">|</span> Actors</h1>
+
+<div class="people-container">
+  <div *ngFor="let p of peoples">
+    <ng-container *ngIf="p.roles?.includes('star')">
+      <div class="people-wrapper">
+        <a [routerLink]="['/people', p.id]">
+          <div class="people-card">
+            <img [src]="p.image" alt="{{ p.first_name }}" />
+          </div>
+        </a>
+        <p class="people-name">{{ p.first_name }} {{ p.last_name }}</p>
+        <p class="people-age">{{ p.age }}</p>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+

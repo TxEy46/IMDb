@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Superman",
+    "image": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "imdb_score": 7.6,
+    "videoUrl": "https://www.youtube.com/watch?v=7VAXVBQ-BZ8",
+    "description": "Superman must reconcile his alien Kryptonian heritage...",
+    "type": "Superhero, Action, Adventure, Sci-Fi",
+    "directorIds": [11],
+    "writerIds": [11, 12, 13],
+    "starIds": [14, 15, 16]
+  },
+  {
+    "id": 2,
+    "name": "F1",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTYwYjJhNzYtY2ZiZS00ZmYxLWJkZjctYjRlNGIxYjI3ZTU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "imdb_score": 7.9,
+    "videoUrl": "https://www.youtube.com/watch?v=i4NiGZmZnyg",
+    "description": "A Formula One driver comes out of retirement...",
+    "type": "Car Action, Motosport, Action, Drama, Sport",
+    "directorIds": [17],
+    "writerIds": [18, 17],
+    "starIds": [19, 20]
+  },
+  {
+    "id": 3,
+    "name": "The Dark Knight",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfE_qrYMBZ_JB8om-34WGaZARhpX26yWRttqIDvn4_7l--UzX8mxKcPrc59IcvTpEA_G8gPA",
+    "imdb_score": 9.0,
+    "videoUrl": "https:/s/www.youtube.com/embed/EXeTwQWrcwY",
+    "description": "Batman faces his toughest challenge yet...",
+    "type": "Action, Crime, Drama",
+    "directorIds": [23],
+    "writerIds": [23],
+    "starIds": [7,21,24,25]
+  },
+  {
+    "id": 4,
+    "name": "Parasite",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHqERudQeMKbEpp97lLK_unmW1aJZLdP_-A&s",
+    "imdb_score": 8.6,
+    "videoUrl": "https://www.youtube.com/embed/5xH0HfJHsaY",
+    "description": "Greed and class discrimination threaten...",
+    "type": "Drama, Thriller, Satire",
+    "directorIds": [26],
+    "writerIds": [26],
+    "starIds": [27,28,29,30,31]
+  },
+  {
+    "id": 5,
+    "name": "Avengers: Endgame",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg",
+    "imdb_score": 8.4,
+    "videoUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+    "description": "After Thanos' snap, the Avengers regroup...",
+    "type": "Action, Sci-Fi, Superhero",
+    "directorIds": [32,33],
+    "writerIds": [34,35],
+    "starIds": [36,37,38,39,2,40,41]
+  },
+  {
+    "id": 6,
+    "name": "The Matrix",
+    "image": "https://m.media-amazon.com/images/I/51vpnbwFHrL._AC_.jpg",
+    "imdb_score": 8.7,
+    "videoUrl": "https://www.youtube.com/embed/vKQi3bBA1y8",
+    "description": "A hacker discovers the shocking truth...",
+    "type": "Action, Sci-Fi, Cyberpunk",
+    "directorIds": [],
+    "writerIds": [],
+    "starIds": []
+  },
+  {
+    "id": 7,
+    "name": "Forrest Gump",
+    "image": "https://resizing.flixster.com/hqcqFfWf1syt2OrGlbW7LDvfj9Y=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15829_v_v13_aa.jpg",
+    "imdb_score": 8.8,
+    "videoUrl": "https://www.youtube.com/embed/bLvqoHBptjg",
+    "description": "Through extraordinary experiences, Forrest Gump...",
+    "type": "Drama, Romance, Comedy",
+    "directorIds": [],
+    "writerIds": [],
+    "starIds": []
+  },
+  {
+    "id": 8,
+    "name": "Fight Club",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "imdb_score": 8.8,
+    "videoUrl": "https://www.youtube.com/embed/SUXWAEX2jlg",
+    "description": "An office worker and a soap salesman...",
+    "type": "Drama, Thriller, Psychological",
+    "directorIds": [],
+    "writerIds": [],
+    "starIds": []
+  },
+  {
+    "id": 9,
+    "name": "The Shawshank Redemption",
+    "image": "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg",
+    "imdb_score": 9.3,
+    "videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+    "description": "Two imprisoned men form a lasting friendship...",
+    "type": "Drama, Crime, Inspirational",
+    "directorIds": [],
+    "writerIds": [],
+    "starIds": []
+  },
+  {
+    "id": 10,
+    "name": "Joker",
+    "image": "https://assets.vogue.in/photos/5d7224d50ce95e0008696c55/2:3/w_2560%2Cc_limit/Joker.jpg",
+    "imdb_score": 8.5,
+    "videoUrl": "https://www.youtube.com/embed/zAGVQLHvwOY",
+    "description": "A failed stand-up comedian descends into madness...",
+    "type": "Drama, Thriller, Psychological",
+    "directorIds": [],
+    "writerIds": [],
+    "starIds": []
+  }
+]
